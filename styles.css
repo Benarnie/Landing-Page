@@ -67,6 +67,10 @@ button {
     font-size: 18px;
 }
 
+button:hover {
+    color: white;
+}
+
 .fullblock {
     display: flex;
     flex: 1 1 0;
@@ -111,4 +115,58 @@ main {
     align-items: center;
     flex-wrap: wrap;
     margin: 48px 0 96px 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote1 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote2 {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.calltoaction {
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.text1 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.credit {
+    color: white;
 }
